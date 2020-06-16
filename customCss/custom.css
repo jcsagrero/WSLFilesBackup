@@ -1,0 +1,82 @@
+
+
+
+body > div.monaco-workbench.windows.chromium.nostatusbar > div.monaco-grid-view > div > div > div.split-view-container > div:nth-child(2) > div > div > div.split-view-container > div:nth-child(3) > div > div > div.split-view-container > div:nth-child(2) {
+  display: flex;
+  border-top: 8px solid #22231d;
+  /* border-top: 6px solid #2E2F29; */
+  /* border-top: 5px solid #1B1C18; */
+  /* height:inherit; */
+}
+
+#workbench\.parts\.panel {
+    padding-top: 0%;
+  /* flex-flow: column; */
+  display: flex;
+  height:inherit;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+/* while terminal top header */
+#workbench\.parts\.panel > div.composite.title {
+  display: none !important;
+  /* align-items: stretch; */
+}
+
+
+#workbench\.parts\.panel > div.content {
+  /* align-items: stretch; */
+  flex: 1;
+  padding-top: 0%;
+  /* padding-top:%; */
+  height:inherit;
+  width:inherit;
+}
+
+
+.terminal {
+    /* border-top: 1px solid #18FFFF; */
+    /* border-left: 1px solid #00ffaa; */
+    /* padding-left: 1em; */
+    opacity: 1;
+}
+.terminal:not(.focus) {
+    border-color: transparent;
+    opacity: 0.7;
+}
+
+.tabs-and-actions-container .editor-actions {
+    display: none !important;
+}
+
+
+#workbench\.parts\.sidebar > div.composite.title > div.title-label {
+  display:none !important;
+  height: 0;
+  overflow: hidden;
+  height:0px;
+  width:0px;
+}
+
+#workbench\.parts\.sidebar > div.composite.title > div.title-actions {
+  margin-left: 22%;
+  /* margin-right: 10%; */
+  display: flex;
+}
+
+.window-appicon {
+  display: none !important;
+}
+
+/* #workbench\.parts\.panel > div.composite.title > div.composite-bar.panel-switcher-container {
+  display: none !important;
+} */
+
+
+/* while terminal top header */
+/* document.querySelector("#workbench\\.parts\\.panel > div.composite.title > div.composite-bar.panel-switcher-container") */
+
+/* #workbench\.parts\.panel > div.composite.title > div.composite-bar.panel-switcher-container {
+  display: none !important;
+}  */
